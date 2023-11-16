@@ -1,0 +1,31 @@
+.button {
+    border: none;
+    background-color: var(--bg-button);
+    font-size: 1.8em;
+    box-shadow: inset 0px -3px 0px 0px var(--bs-button);
+    outline: none;
+    border-radius: 5px;
+    margin: 15px 15px;
+    color: var(--corDeFundoELetra);
+    opacity: .8;
+}
+.button:hover{
+    cursor: pointer;
+}
+.button:active{
+    opacity: 1;
+}
+
+.button.quadra{
+    grid-column: span 4;
+    background-color: var(--corTeclaResultado);
+    color: var(--corReset);
+    box-shadow: inset 0px -3px 0px 0px var(--corTeclaResultadoSombra);
+}
+
+
+.reset{
+    background-color: var(--corTeclaReset);
+    color: var(--corReset);
+    box-shadow: inset 0px -3px 0px 0px var(--corTeclaResetSombra);
+}

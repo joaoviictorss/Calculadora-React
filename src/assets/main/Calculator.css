@@ -1,0 +1,10 @@
+.calculator {
+    height: 700px;
+    width: 550px;
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+    
+    border-radius: 10px;
+    background-color: var(--corCorpo);
+}
